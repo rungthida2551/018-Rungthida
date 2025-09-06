@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ส่วนประกอบของอุปกรณ์อิเล็กทรอนิกส์</title>
+    <style>
+        body {
+            font-family: 'Sarabun', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #b39efb;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #8d6ff1;
+            text-align: center;
+            padding: 12px 0;
+        }
+        nav a {
+            color: white;
+            margin:  20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .part {
+            background-color: hsl(0, 0%, 100%);
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(6, 1, 1, 0.781);
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .part img {
+            width: 375px;
+            height: 250px;
+            object-fit: contain;
+            border-radius: 0.5px;
+            background-color: #f9f9f9;
+            padding: 0.9px;
+        }
+
+        .part h2 {
+            margin: 0 0 10px;
+            color: #8d6ff1;
+        }
+
+        .part p {
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #50afcc;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .part {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .part img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ส่วนประกอบของอุปกรณ์อิเล็กทรอนิกส์</h1>
+    </header>
+     <nav>
+    <a href="home.html">หน้าแรก</a>
+    <a href="Circuit diagram.html">เเผนผังวงจร</a>
+    <a href="Electronic equipment.html">ส่วนประกอบของอุปกรณ์อิเล็กทรอนิกส์</a>
+    <a href="Working principles of electroinc devices.html">หลักการทํางานอุปกรณ์อิเล็กทรอนิกส์</a>
+  </nav>
+
+    <div class="container">
+        <div class="part">
+            <img src="images/Resistor.jpg" alt="Resistor.jpg">
+            <div>
+                <h2>ตัวต้านทาน (Resistor)</h2>
+                <p>ตัวต้านทานมีหน้าที่ในการจำกัดหรือควบคุมกระแสไฟฟ้าในวงจร โดยมีค่าความต้านทานต่างกันตามการใช้งาน</p>
+            </div>
+        </div>
+
+        <div class="part">
+            <img src="images/Capacitor.jpg" alt="Capacitor.jpg">
+            <div>
+                <h2>ตัวเก็บประจุ (Capacitor)</h2>
+                <p>ตัวเก็บประจุใช้ในการเก็บและปล่อยประจุไฟฟ้า ช่วยกรองสัญญาณรบกวน หรือรักษาแรงดันไฟฟ้าในวงจร</p>
+            </div>
+        </div>
+
+        <div class="part">
+            <img src="images/Light-emitting diode.jpg" alt="Light-emitting diode.jpg">
+            <div>
+                <h2>ไดโอดเปล่งแสง(Light-Emitting Diode)</h2>
+                <p>ไดโอดเปล่งแสง หรือ LED (Light Emitting Diode) คืออุปกรณ์สารกึ่งตัวนำขนาดเล็กที่เปล่งแสงออกมาเมื่อมีกระแสไฟฟ้าไหลผ่าน (เปลี่ยนพลังงานไฟฟ้าเป็นแสง) ต่างจากหลอดไฟแบบดั้งเดิมที่สร้างแสงจากความร้อน</p>
+            </div>
+        </div>
+
+        <div class="part">
+            <img src="images/Electric soldering.jpg" alt="Electric soldering.jpg">
+            <div>
+                <h2> หัวแร้ง (Electric Soldering)</h2>
+                <p>เป็นอุปกรณ์ที่ละลายตะกั่ว เพิ่มความร้อนให้ทองแดง และขาอุปกรณ์ในลายวงจร เพื่อให้ตะกั่วละลายไหลเข้าไปในขาอุปกรณ์และให้ติดกับแผงวงจร นิยมใช้ในงานเชื่อมแผ่นวงจรอุปกรณ์อิเล็กทรอนิกส์เป็นส่วนใหญ่ รูปลักษณ์ของมันที่มีด้ามจับเหมือนปืน และมีปุ่มเร่งความร้อนเหมือนไกปืนอีกด้วย ซึ่งลักษณะพิเศษที่มีปุ่มเร่งความร้อนนี้เอง จึงเป็นที่ชื่นชอบของคนที่ใช้งาน </p>
+            </div>
+        </div>
+
+        <div class="part">
+            <img src="images/integrated circuit.webp" alt="integrated circuit.webp">
+            <div>
+                <h2>วงจรรวม (Integrated Circuit - IC)</h2>
+                <p>วงจรรวมที่ประกอบด้วยชิ้นส่วนอิเล็กทรอนิกส์ขนาดเล็กจำนวนมาก บนแผ่นชิป ทำหน้าที่เฉพาะอย่าง เช่น ขยายสัญญาณ ประมวลผลผล</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 เว็บไซต์อิเล็กทรอนิกส์ | จัดทำโดย |[รุ่งธิดา]
+    </footer>
+
+</body>
+</html>

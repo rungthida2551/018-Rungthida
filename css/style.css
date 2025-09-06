@@ -1,0 +1,78 @@
+body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('images/pngtree-design-in-the-concept-of-electronic-circuit-boards-png-image_5753784.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-container {
+      background-color: lab(65.52% 8.07 -48);
+      padding: 40px 30px;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .login-container h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #333;
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0 20px 0;
+      border: 1px solid #110707;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+
+    .login-container input[type="submit"],
+    .login-container button {
+      width: 100%;
+      background-color: #244def;
+      color: white;
+      padding: 14px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s;
+      margin-top: 10px;
+    }
+
+    .login-container input[type="submit"]:hover,
+    .login-container button:hover {
+      background-color: #1c3076;
+    }
+
+    .login-container .forgot {
+      display: block;
+      text-align: right;
+      font-size: 14px;
+      color: #666;
+      text-decoration: none;
+    }
+
+    .toggle-link {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 14px;
+      cursor: pointer;
+      color: rgba(19, 16, 91, 0.733);
+    }
+
+    .toggle-link:hover {
+      text-decoration: underline;
+    }
